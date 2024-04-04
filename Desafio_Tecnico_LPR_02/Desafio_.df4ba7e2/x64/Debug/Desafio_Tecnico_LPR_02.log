@@ -1,0 +1,69 @@
+﻿  Desafio_Tecnico_LPR_02.cpp
+D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,9): error C2679: '=' binário : nenhum operador encontrado que receba um operando de lado direito do tipo 'bool' (ou não há conversão aceitável)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(65,39):
+  poderia ser 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator =(const std::basic_ostream<char,std::char_traits<char>> &)'
+  	D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,9):
+  	'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator =(const std::basic_ostream<char,std::char_traits<char>> &)': não é possível converter um argumento 2 de 'bool' em 'const std::basic_ostream<char,std::char_traits<char>> &'
+  		D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  		Razão: não é possível converter de 'bool' para 'const std::basic_ostream<char,std::char_traits<char>>'
+  		D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  		'std::basic_ostream<char,std::char_traits<char>>::basic_ostream': nenhuma função sobrecarregada pode converter todos os tipos de argumento
+  			C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(64,24):
+  			poderia ser 'std::basic_ostream<char,std::char_traits<char>>::basic_ostream(const std::basic_ostream<char,std::char_traits<char>> &)'
+  				D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  				'std::basic_ostream<char,std::char_traits<char>>::basic_ostream(const std::basic_ostream<char,std::char_traits<char>> &)': não é possível converter um argumento 1 de 'bool' em 'const std::basic_ostream<char,std::char_traits<char>> &'
+  					D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  					Razão: não é possível converter de 'bool' para 'const std::basic_ostream<char,std::char_traits<char>>'
+  					D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  					Conversão requer um segundo operador de conversão definida pelo usuário ou construtor
+  			C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(47,24):
+  			ou       'std::basic_ostream<char,std::char_traits<char>>::basic_ostream(std::basic_ostream<char,std::char_traits<char>> &&) noexcept(false)'
+  				D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  				'std::basic_ostream<char,std::char_traits<char>>::basic_ostream(std::basic_ostream<char,std::char_traits<char>> &&) noexcept(false)': não é possível converter um argumento 1 de 'bool' em 'std::basic_ostream<char,std::char_traits<char>> &&'
+  					D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  					Razão: não é possível converter de 'bool' para 'std::basic_ostream<char,std::char_traits<char>>'
+  					D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  					Conversão requer um segundo operador de conversão definida pelo usuário ou construtor
+  			C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(40,24):
+  			ou       'std::basic_ostream<char,std::char_traits<char>>::basic_ostream(std::_Uninitialized,bool)'
+  				D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  				'std::basic_ostream<char,std::char_traits<char>>::basic_ostream(std::_Uninitialized,bool)': não é possível converter um argumento 1 de 'bool' em 'std::_Uninitialized'
+  					D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  					Conversão para tipo de enumeração requer uma conversão explícita (static_cast, conversão C-style ou conversão function-style entre parênteses)
+  			D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  			ao tentar corresponder a lista de argumentos '(bool)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(52,39):
+  ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator =(std::basic_ostream<char,std::char_traits<char>> &&) noexcept'
+  	D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,9):
+  	'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator =(std::basic_ostream<char,std::char_traits<char>> &&) noexcept': não é possível converter um argumento 2 de 'bool' em 'std::basic_ostream<char,std::char_traits<char>> &&'
+  		D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  		Razão: não é possível converter de 'bool' para 'std::basic_ostream<char,std::char_traits<char>>'
+  		D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  		'std::basic_ostream<char,std::char_traits<char>>::basic_ostream': nenhuma função sobrecarregada pode converter todos os tipos de argumento
+  			C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(64,24):
+  			poderia ser 'std::basic_ostream<char,std::char_traits<char>>::basic_ostream(const std::basic_ostream<char,std::char_traits<char>> &)'
+  				D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  				'std::basic_ostream<char,std::char_traits<char>>::basic_ostream(const std::basic_ostream<char,std::char_traits<char>> &)': não é possível converter um argumento 1 de 'bool' em 'const std::basic_ostream<char,std::char_traits<char>> &'
+  					D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  					Razão: não é possível converter de 'bool' para 'const std::basic_ostream<char,std::char_traits<char>>'
+  					D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  					Conversão requer um segundo operador de conversão definida pelo usuário ou construtor
+  			C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(47,24):
+  			ou       'std::basic_ostream<char,std::char_traits<char>>::basic_ostream(std::basic_ostream<char,std::char_traits<char>> &&) noexcept(false)'
+  				D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  				'std::basic_ostream<char,std::char_traits<char>>::basic_ostream(std::basic_ostream<char,std::char_traits<char>> &&) noexcept(false)': não é possível converter um argumento 1 de 'bool' em 'std::basic_ostream<char,std::char_traits<char>> &&'
+  					D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  					Razão: não é possível converter de 'bool' para 'std::basic_ostream<char,std::char_traits<char>>'
+  					D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  					Conversão requer um segundo operador de conversão definida pelo usuário ou construtor
+  			C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(40,24):
+  			ou       'std::basic_ostream<char,std::char_traits<char>>::basic_ostream(std::_Uninitialized,bool)'
+  				D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  				'std::basic_ostream<char,std::char_traits<char>>::basic_ostream(std::_Uninitialized,bool)': não é possível converter um argumento 1 de 'bool' em 'std::_Uninitialized'
+  					D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  					Conversão para tipo de enumeração requer uma conversão explícita (static_cast, conversão C-style ou conversão function-style entre parênteses)
+  			D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,19):
+  			ao tentar corresponder a lista de argumentos '(bool)'
+  D:\Atividades\Arquivos_Software\ETE\Revisões\LPR\Desafio_Tecnico_LPR_02\Desafio_Tecnico_LPR_02.cpp(37,9):
+  ao tentar corresponder a lista de argumentos '(std::basic_ostream<char,std::char_traits<char>>, bool)'
+  
